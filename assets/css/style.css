@@ -40,10 +40,10 @@ h1,h2,h3,h4,h5,h6 {
 h2{
     text-align: center;
     font-size: 24px;
-    font-weight: 700; /* Bold font */
-    padding-bottom: 10px; /* Space between text and underline */
-    margin-bottom: 20px; /* Space below heading */
-    border-bottom: 3px solid #007BFF; /* Blue underline */
+    font-weight: 700; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    border-bottom: 3px solid #007BFF; 
     display:inline-block;
 }
 
@@ -508,7 +508,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 
 .experience-time-responsive{display: none;}
 
---------------------------------------*/
+
 
 /*-------------------------------------
         11. projects and achievements
@@ -517,7 +517,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 /* Projects Section */
 #projects {
     padding: 80px 0 100px;
-    background-color: #f4f4f4; /* Customize background if needed */
+    background-color: #88d2d5; /* Customize background if needed */
 }
 
 #projects .section-title {
@@ -534,11 +534,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 #projects .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    gap: 20px;
+    gap: 40px;
 }
 
 #projects .project-item {
-    background-color: #fff;
+    background-color: #afe5e9;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -565,7 +565,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 
 #projects .project-item p {
     margin: 0 20px 20px;
-    color: #777;
+    color: #333;
     line-height: 1.6;
 }
 
@@ -573,7 +573,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 /* Certificates Section */
 #certificates {
     padding: 80px 0 100px;
-    background-color: #f4f4f4; /* Customize background if needed */
+    background-color: #afe5e9; 
 }
 
 #certificates .section-title {
@@ -588,10 +588,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 
 #certificates .certificate-slider {
     position: relative;
-    max-width: 70%; /* Reduced to 50% */
-    margin: 0 auto; /* Center the slider */
+    max-width: 70%; /* Reducing to 50% or can be scaled up or down as per use  */
+    margin: 0 auto; 
     overflow: hidden;
-    background-color: #fff;
+    background-color: #afe5e9;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -629,7 +629,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 #certificates .slider-nav button {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
-    color: #fff;
+    color: #7b7a7a;
     font-size: 2rem;
     padding: 10px;
     cursor: pointer;
@@ -648,7 +648,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
         12. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
+    background: #92acc3;
     padding: 80px 0 100px;
 }
 .single-contact-box {padding-top: 100px;}
@@ -664,11 +664,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
     box-shadow: none;
     outline: 0!important;
     background: #fff;
-    color: #636a82;
+    color: #ffffff;
     resize: none;
 }
 
-/*--contct button--*/
+/*--contact button--*/
 .contact-form .single-contact-btn {
     display:flex;
     align-items:center;
@@ -712,12 +712,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 /* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
-    color:  #3c4258;
+    color:  #30333b;
 }
 .contact-add-head p {
     font-size:  16px;
     text-transform: capitalize;
-    color:  #636a82;
+    color:  #ddddec;
     font-weight:  300;
     margin-top:  6px;
 }
@@ -726,11 +726,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 /*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
-    color:  #636a82;
+    color:  #30333b;
     font-weight:  500;
 }
 .single-contact-add-info p {
-    color:  #999fb3;
+    color:  #ddddec;
     font-size:  16px;
     margin-top:  18px;
 }
@@ -741,13 +741,18 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 
 /*hm-foot-icon*/
 .hm-foot-icon {
-    background: #b2c1ce;
+    background: #30333b;
+    
+    
    
 }
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
-    color: #636a82;
-    margin-right:18px;
+    color: #30333b;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    margin-right:20px;
     -webkit-transition: .3s; 
     -moz-transition:.3s; 
     -ms-transition:.3s; 
@@ -759,7 +764,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
-    color: #888ea5;
+    color: #30333b;
     text-transform: capitalize;
     padding: 38px 0;
 }
@@ -812,4 +817,3 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
