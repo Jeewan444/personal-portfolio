@@ -41,10 +41,10 @@ h2{
     text-align: center;
     font-size: 24px;
     font-weight: 700; /* Bold font */
-            padding-bottom: 10px; /* Space between text and underline */
-            margin-bottom: 20px; /* Space below heading */
-            border-bottom: 3px solid #007BFF; /* Blue underline */
-            display:inline-block;
+    padding-bottom: 10px; /* Space between text and underline */
+    margin-bottom: 20px; /* Space below heading */
+    border-bottom: 3px solid #007BFF; /* Blue underline */
+    display:inline-block;
 }
 
 p {
@@ -360,8 +360,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-    
+.skills{
+    background: #b2c1ce;
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -741,6 +741,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 
 /*hm-foot-icon*/
 .hm-foot-icon {
+    background: #b2c1ce;
    
 }
 .hm-foot-icon ul li{float:left;}
