@@ -532,9 +532,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 }
 
 #projects .project-grid {
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
 }
 
@@ -553,7 +553,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 }
 
 #projects .project-item img {
-    width: 100%;
+    width: auto;
     height: auto;
     display: block;
     object-fit: cover;
@@ -652,6 +652,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 120px;}
 .contact {
     background: #92acc3;
     padding: 80px 0 100px;
+}
+#Contact .contact-grid {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 40px;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {
