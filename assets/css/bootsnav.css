@@ -1,14 +1,3 @@
-/* ==============================================================
-
-Template name : Bootsnav - Multi Purpose Header
-Categorie : Bootstrap Menu in CSS
-Author : adamnurdin01
-Version : v.1.2
-Created : 2016-06-02
-Last update : 2016-10-19
-
-============================================================== */
-
 /* MEGAMENU STYLE
 =================================*/
 nav.bootsnav .dropdown.megamenu-fw {
@@ -48,7 +37,7 @@ nav.navbar.bootsnav{
     background-color: #fff;
     border: none;
     border-bottom: solid 1px #e0e0e0;
-    z-index: 9;
+    z-index: 5;
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
@@ -108,7 +97,7 @@ nav.bootsnav.navbar-full{
 }
 
 nav.bootsnav.navbar-full .navbar-header{
-    display: block;
+    display:flex;
     width: 100%;
 }
 
@@ -132,12 +121,12 @@ nav.bootsnav.navbar-full .navbar-collapse{
     top: 0;
     left: 0;
     padding: 0;
-    display: none !important;
-    z-index: 9;
+    display: flex !important;
+    z-index: 5;
 }
 
 nav.bootsnav.navbar-full .navbar-collapse.in{
-    display: block !important;
+    display: flex !important;
 }
 
 nav.bootsnav.navbar-full .navbar-collapse .nav-full{
@@ -371,7 +360,7 @@ body.on-side{
     width: 280px;
     padding: 25px 30px;
     height: 100%;
-    display: block;
+    display: flex;
     background-color: #333;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -504,15 +493,15 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
 /* Navbar Responsive
 =================================*/
-@media (min-width: 1024px) and (max-width:1400px) {
+@media (min-width: 240px) and (max-width:1400px) {
     body.wrap-nav-sidebar .wrapper .container{
         width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 240px) {
     /* General Navbar
     =================================*/
     nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
@@ -559,7 +548,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
         padding: 10px 15px;
         border-bottom: solid 1px #eee;
-        color: #6f6f6f;
+        color: #fae9e9;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li:last-child > a{
@@ -651,7 +640,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-transparent.white{
-        background-color: rgba(255,255,255,0.3);
+        background-color: rgba(255, 255, 255, 0.3);
         border-bottom: solid 1px #bbb;
     }
     
@@ -734,9 +723,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     /* Navbar Brand top
     =================================*/
     nav.bootsnav.navbar-brand-top .navbar-header{
-        display: block;
+        display: flex;
         width: 100%;
-        text-align: center;
+        text-align:justify;
     }
     
     nav.bootsnav.navbar-brand-top ul.nav > li.dropdown > ul.dropdown-menu{
@@ -1280,7 +1269,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     /* Tabs
     =================================*/ 
     nav.navbar.bootsnav .megamenu-content.tabbed{
-        padding-left: 0 !mportant;
+        padding-left: 0 !important;
     }
     
     nav.navbar.bootsnav .tabbed > li{
